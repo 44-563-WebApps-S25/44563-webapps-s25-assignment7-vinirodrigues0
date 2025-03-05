@@ -28,10 +28,11 @@
 		<div class="divlist">row item 3</div>  
 	</div>
 	
-	<p> Press the button to create an new element of type div and then add it to the container.</p>
-	<input type="text" id="inputText">
+	<p> Press the buttons to manipulate the list of divs.</p>
+	<input type="text" id="inputText"> <br> <br>
+	<button onclick="addFront()">Add Front</button>
 	<button onclick="makeNewDiv()">Add end</button>
-	
+	<button onclick="remove()">Remove</button>
 	
 </body>
 <script>
@@ -47,6 +48,28 @@
 		let container = document.getElementById('target');
 		container.appendChild(element);
 		
+		document.getElementById("inputText").value = "";
+	}
+
+	function remove() {
+		let divListItems = document.getElementsByClassName("divlist");
+		let length = divListItems.length;
+
+		if (length > 0) {
+			divListItems[Math.floor(length/2)].remove();
+		}
+	}
+
+	function addFront() {
+		let element = document.createElement("div");
+		let input = document.getElementById("inputText").value;
+		element.innerHTML = input;
+		element.className = "divlist";
+		element.style.color = "orange";
+
+		let container = document.getElementById('target');
+		container.insertBefore(element, container.firstChild);
+
 		document.getElementById("inputText").value = "";
 	}
 </script>
