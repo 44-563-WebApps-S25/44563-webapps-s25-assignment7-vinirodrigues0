@@ -2,6 +2,6 @@
 # WebApps-S25-Assignment-7
 An assignment on java script modifying the DOM and using anonymous callback functions.
 
-Hosted at <https://44-563-webapps-s25.github.io/44563-webapps-s25-assignment7-vinirodrigues0/treasure.html>
-Hosted at <https://44-563-webapps-s25.github.io/44563-webapps-s25-assignment7-vinirodrigues0/reflex.html>
+Hosted at <https://44-563-webapps-s25.github.io/44563-webapps-s25-assignment7-vinirodrigues0/treasure.html> <br>
+Hosted at <https://44-563-webapps-s25.github.io/44563-webapps-s25-assignment7-vinirodrigues0/reflex.html> <br>
 Hosted at <https://44-563-webapps-s25.github.io/44563-webapps-s25-assignment7-vinirodrigues0/divs.html>
